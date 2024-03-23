@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="discussion.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Nexus Forum</h1>
+        <!-- <ul type="none" style="display: flex; gap: 120px; align-items: center; font-size: large; font-weight: 500;">
+            <li class="logo"><a href="home.html">Home</a></li>
+            <li class="">Answer queries</li>
+            <li class="">Spaces</li>
+        </ul> -->
+        <div style="display: flex; align-items: center; gap: 20px; background-color: white; padding: 10px 20px; border-radius: 10px; border: 1px solid #b92b27">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+            <input type="search" name="" id="" placeholder="search query" style="border: none; outline: none;">
+        </div>
+    </header>
+    <main class="main">
+        <div class="left-part" style="display: flex; flex-direction: column; align-items: center;">
+            <!-- <button class="post-btn">Create Space</button> -->
+            <div class="space">
+                <button class="space-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAbNJREFUSEvt1jtrFUEUAOAvBtRGIjYBCy20sBBsgoUIEWwsRCyCaSIKNkbyC2zUQvwFKoKCohaKEAgp0ggGQopgYWEjJIUWQhpRbFQQ3YFZWOY+9hnS5HZ3duZ8u2fPnJ0R2/Qb2SZXG3gG//Cyyc03hQP6PIKX8aIu3gQ+h0WMRuwvzmOpDl4XPoll7E2QX5jEWlW8Dnwke7L32D8g+PcsExPYqIJXhcfj0xwqCfoFISubZXgVeB9WcbwsWLz+Eafwc9j8Mng33uJ0RTSftoKz+DNo3TB4F+ZxoSaaT1/AxbjXe0IMgx/jWkM0X3Yfc/1iDIJv4m5LNF8eYt1LY/WDi12pI1tPd0vhtCt1Bfd0tyJ8LCuGD1la9nSlJXF+Z8V6Ap/CeBGexYMtQvOw1/EohUPTD1V8MM66isMtb+QznsYYX/EEIe1Dv8fvYuNvY4cPypk62ynM3YHzjD0rvLd8LNTDlT4p7TTVdzLgdoKE/7d24HhM6qyqtzzVr3Cpz3u7gYfJ+KCu9xrTdffxUUwlJ8pvCFX9Iwk2Fqv6QGE8nDzfYL0u3KZjla4tO3OVBmg64T81F1Af8xlKRAAAAABJRU5ErkJggg==" alt="" style="border-radius: 50%; width: 30px; height: 30px;"><a href="Home.html">Home</a></button>
+                <button class="space-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAkBJREFUSEvt1UnIzWEUx/HPawoRSlkYykZkyJSFULIwLClkLCkLlKEoFiyUrBBKLCRJMmxZGRZKhGTIwlDmQtgh0//ovPp7e+/gXvVunM3tf5/z/L7POc8552nRQdbSQVz/wY1mfgx2Ywle1SNST6q7pOBGjErRMziAi+iG2xiOR+nzqRa8FjjWT2NuBaHlOI69WJ0+e7C+WfAm7Koi8hXjcBfnMROfMbg4yJtq8GoRx9r74u761Dj9oeJeV2WK76TvWuxvFDwQz2ulDDcxIf0eY2imPwqtolWLuH+tdKVqRBlVHfY003wMyxoFx75nGFQj6iMFcAW/htG3/I2KX9MMeF32ZyWNL5iIiDpA+9JxXpGFs82AI4pThXAItbUfWIwTGI+r6Foc4C0G4Hsz4NgbAyTua0NxiJEIYPTuQVzJdrqAviVQDJaleFEJXmuA1FHUemJaEfGsvOveuSn6OPr6Vnsi1cDdMRtjM9Ko8laLqKOC7+EaLuVCjyIj27A5vz9iMu63hVcCzyj68Siil+uxy1iI1+m8IO8+9G9kAf6h0x54fm7qVA+x5BP3ORVP8r/tGX18zsG5sl5b8JRMW+e/hLa6P8RoxOvUKydfjNyTmZHfsm3B8by1TqEG2bZgZ24+XMBX4kPxgvWrFHH0YtxHs/agiHBEigQ04GFDchL++ihHXJ48zcKjA95hGBalWLxiL1uFy+CtxbDY0Swx90/C9WpaZXC5CpvlTy/1drta/2JyNXTI/+CG0tbIpg5L9U9O9V4fJoHcsQAAAABJRU5ErkJggg==" alt="" style="border-radius: 50%; width: 30px; height: 30px;"><a href="about.html">About us</a></button>
+                <button class="space-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAfJJREFUSEvt1k2oD1EYx/HPjY1IysuKiI2ysGApJAsvKbK0sbCkKBEphJC4wlZZW3hLlIWXLGUhrykiWSFZYCEyz+2Zmv7958787/3nLtxTp87M/M7zPfOc33lmBoxRGxgjrnHwP8t8U6q3YC/mM7Qtr3Ecl0e7wuHAB3CkBhDPjo0GXgdeikcZ+D2u5ngz5uQ4NI9HCq8D38JavMIS/EjAFDzJ1F/Hxn6Dv2IaThXQPR3Bz2AXPmJ2v8GfMAOnsbsGHJpZNeD7WIEHWNlNU5fqmLA89zD2stqeYVER+B5W9Ru8Hjcz6AvcyfEaLMzxOtzuNzji7cfRPL/V+H/y2cnKzXmIXrazxUlYnEbcWbn/DtEba3U4OiauLs70hMzCIJ52vOkhHGxhtMOFJrSN4BaxhiR9BYdxlhVvGeaamiv4loZ7mOYqF9aXVEeQi8M4toTdLfZrKz50SUvPx2kmXmJ6BvuO58WH4mdeT8qjNDmvv6TLP3fAewbfKFK5IUE78s277fM2nEMs5Frh3k2jAc8trY6AXmhw1vYiM+dTE6UzSmjrVq1cseorOXMB3jZEiW/0m9RElsqC0wpeBUfBKL+xE/G7IUJofqVmH060IqaoCg6HRo/WtbDXuDduX8remt3069M6UK/CcXCvGRux/v9L9V+Sul0f5QfBtQAAAABJRU5ErkJggg==" alt="" style="border-radius: 50%; width: 30px; height: 30px;"><a href="Benefits.html">Benefits</a></button>
+                <button class="space-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAaFJREFUSEvFl88rBVEUxz9P+bUTVpKsFWWjRKz8B8pKNhZixdYCZc9OskGyY8XGxkLZWUiSrBQlv4p/gHvqTo1p7tx75s2YU1PvzZt7Pud77jln7qtRkdUq4pIFHgHGgOaCgvsE9oAv8ecCrwIrBQHjbuaBrSzwO9BRAnjN+BRRTsU/JUDFZSHgY+AEeAMGgSWgzRNw3eBFA9lMQDqBa6ArA54K7gXkEjvPWHwDDDh+nwb2teDQSpaqlOpMM1H7XBZ4G5hzOG8HPrTg0FTfAv2mz9Mqfxi41ILjz/vaSSp4IwFoBc6AUS04VHHk9wg4NWl/sRlYAHrytFNocdUzW1LbqTJwaKrvgEPgCpDPMtf7bLrHzb0poMmRllyT69uMR9nHA0+uZZ9liEgQSVNPrlf7br4P3OAGMwV3AZlkcVPv8aRJpVSxxlqAB6A7tkgFfrJt4uvttKCWgXUf2FVcFzbNGrXRsxN2qETfVcX1aPcrD1jEzPgUa0ZmniBkjUpxXkjaOi+4ssPeDjBbpFTry3u8bbSVPPTfB/oSxP51Wdl/p19hb10fnjDZeQAAAABJRU5ErkJggg==" alt="" style="border-radius: 50%; width: 30px; height: 30px;"><a href="Contactandfeedback.html">Contact us</a></button>
+            </div>
+        </div>
+
+        <div class="mid-part">
+
+            <div class="post">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16" style="color: gray;">
+                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                  </svg><input type="text" name="" id="" placeholder="What do you want to post?" class="post-input">
+                  <button class="post-btn" onclick="post()" ondblclick="newHTMLFun()">Post</button>
+            </div>
+
+            <div class="sample-post">
+                <div class="box">
+                    <div class="profile"><img src="https://source.unsplash.com/50x50?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>Nexus 1</h3></div>
+                    <h2 class="query">What's the average salary in India?</h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="Reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                    <div class="reply-section">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="sample-post">
+                <div class="box">
+                    <div class="profile"><img src="https://source.unsplash.com/40x40?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>Nexus 2</h3></div>
+                    <h2 class="query">What skills or knowledge from your time at school have you found most valuable in the workplace?</h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="Reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                    <div class="reply-section">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="sample-post">
+                <div class="box">
+                    <div class="profile"><img src="https://source.unsplash.com/40x40?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>Nexus 3</h3></div>
+                    <h2 class="query">How did you get your first job after graduation?</h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="Reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                    <div class="reply-section">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="sample-post">
+                <div class="box">
+                    <div class="profile"><img src="https://source.unsplash.com/40x40?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>Nexus 4</h3></div>
+                    <h2 class="query">Is there anything the alumni network can do to support you or other students?
+                    </h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="Reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                    <div class="reply-section">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="sample-post">
+                <div class="box">
+                    <div class="profile"><img src="https://source.unsplash.com/40x40?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>Nexus 4</h3></div>
+                    <h2 class="query">Alumni</h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="Reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                    <div class="reply-section">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-section">
+                <!-- <div class="box">
+                    <div class="profile"><img src="" alt="" style="border-radius: 50%; width: 20px; height: 20px;">
+                    <h3>User1</h3></div>
+                    <h2 class="query">What is your salary?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta provident optio voluptatem natus nulla incidunt delectus pariatur totam enim vel.</p>
+                </div> -->
+                <div class="reply-section">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right-part">
+            <div class="abt-us">
+                <h1>About Us:</h1>
+                <p>At Nexus we believe connection is the most important thing</p>
+                <h2>Our Team:</h2>
+                <div class="images">
+                    
+                    <div class="person"><img src="https://source.unsplash.com/50x50?women" width="70px" height="70px" alt="" style="border-radius: 50%;"><h4>NexusDev(Senior Dev)</h4></div>
+                    <div class="person"><img src="https://source.unsplash.com/50x50?man" width="70px" height="70px"alt="" style="border-radius: 50%;"><h4>NexusDev(Web Designer)</h4></div>
+                    <div class="person"><img src="https://source.unsplash.com/50x50?student" width="70px" height="70px" alt="" style="border-radius: 50%;"><h4>NexusDev(Full Stack dev)</h4></div>
+                    <div class="person"><img src="https://source.unsplash.com/50x50?boy" width="70px" height="70px" alt="" style="border-radius: 50%;"><h4>NexusDev(Manager)</h4></div>
+                    <div class="person"><img src="https://source.unsplash.com/50x50?girl" width="70px" height="70px" alt="" style="border-radius: 50%;"><h4>NexusDev(Market head)</h4></div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="help">
+        <div class="footer-text">
+            <h3>ALL COPYRIGHTS RESERVED<br>contact : Nexus@gmail.com</h3>
+        </div>
+        <div class="media-handle">
+
+          <div class="instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg><h4>Nexus</h4>
+          </div>
+          
+          <div class="facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg><h4>Nexus</h4>
+          </div>
+        
+          <div class="twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+              </svg><h4>Nexus</h4>
+          </div>
+        </div>
+    </footer>
+
+    <script>
+        let queryArray=[];
+        let replyArray=[];
+        post=()=>{
+            let query=document.querySelector('.post-input');
+            let queryInput=query.value;
+            console.log(queryInput);
+            queryArray.push(queryInput);
+            query.value='';
+            newHTMLFun()
+        }
+
+        newHTMLFun=()=>{
+            let container=document.querySelector('.post-section');
+            let newHTML='';
+            for(let i=0;i<queryArray.length;i++)
+            {
+                newHTML+=`<div class="box">
+                <div class="profile"><img src="https://source.unsplash.com/30x30?man" alt="" style="border-radius: 50%; width: 30px; height: 30px;">
+                    <h3>User</h3></div>
+                    <h2 class="query">${queryArray[i]}</h2>
+                    <div class="reply">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894m-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                          </svg>
+                        <input type="text" name="" id="" placeholder="reply" class="comment-input">
+                        <button class="post-btn" onclick="commentSection()">Post</button>
+                    </div>
+                </div>`
+            }
+
+            container.innerHTML=newHTML;
+        }
+
+
+        commentSection=()=>{
+            let comment=document.querySelector('.comment-input');
+            let commentInput=comment.value;
+            console.log(comment);
+            replyArray.push(commentInput);
+            comment.value='';
+            commentDisplay();
+        }
+
+
+        commentDisplay=()=>{
+            let commentContainer=document.querySelector('.reply-section');
+            let commentHTML='';
+            for(i=0;i<replyArray.length;i++)
+            {
+                commentHTML+=`<div style="margin:5px 0px"><textarea style="border: 1px solid lightgray; border-radius:10px; margin-bottom:2px; width:250px;
+                height:30px; resize:none; background-color:transparent; padding:3px 5px; font-weight:500;">${replyArray[i]}</textarea></div>`;
+            }
+            commentContainer.innerHTML=commentHTML;
+        } 
+    </script>
+</body>
+</html>
